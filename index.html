@@ -20,21 +20,29 @@
   </head>
 
   <body>
+    <!-- Jumbotron bootstrap element for display -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!-- Container to hold all rows for hours -->
     <div class="container">
+      <!-- rows to hold div(hour) input(planner input) button(save input) -->
+      <!-- row class to have elements in a row, m1 is margin, id9 to loop -->
       <div class="row m-1" id="9">
+        <!-- col-1 to hold 1/12 of row -->
         <div class="col-1 border border-2 border-secondary">
           9AM
         </div>
+        <!-- input field and col-10 to hold 5/6 of row -->
         <input class="col-10 text-white border border-2 border-secondary">
+        <!-- button to save input field -->
         <button class="col-1 bg-info rounded-end saveBtn">
           Save
         </button>
       </div>
+      <!-- Repeat for all / add 1 to ids  -->
       <div class="row m-1" id="10">
         <div class="col-1 border border-2 border-secondary">
           10AM
