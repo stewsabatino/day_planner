@@ -1,7 +1,7 @@
 # day_planner
 day planner for a single day
-HTML - 
-Snippet - 
+HTML - https://stewsabatino.github.io/day_planner/
+Snippet - <img src="./assets/snippet.png" alt="Day Planner with 9-5 rows per hour">
 
 ## Goals
 * Use Bootstrap to set up the HTML elements to display the day planner
